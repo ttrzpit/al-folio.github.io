@@ -17,11 +17,11 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/Projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
