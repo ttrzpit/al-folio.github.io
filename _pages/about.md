@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate at the Center for Robotics and Biosystems, Northwestern University
 
 profile:
   align: left
@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ttrzpit@u.northwestern.edu</p>
-    #<p>123 your address street</p>
-    #<p>Your City, State 12345</p>
+    <p>Chicago, IL</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
