@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Ph.D. Candidate at the Center for Robotics and Biosystems, Northwestern University
+subtitle: Ph.D. Candidate at Northwestern University's Center for Robotics and Biosystems
 
 profile:
   align: left
