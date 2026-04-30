@@ -12,13 +12,13 @@
   <div class="publications-list">
     {% for p in pubs %}
       <div class="d-flex align-items-start mb-4 gap-3">
-        <div class="flex-shrink-0" style="width:140px;">
+        <div class="flex-shrink-0" style="width:107px;">
           {% if p.thumbnail %}
             <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">
-              <img src="{{ p.thumbnail | relative_url }}" class="img-fluid" style="width:140px; height:100px; object-fit:cover;" alt="{{ p.title | escape }}">
+              <img src="{{ p.thumbnail | relative_url }}" style="width:107px; height:auto; display:block;" alt="{{ p.title | escape }}">
             </a>
           {% else %}
-            <div class="d-flex align-items-center justify-content-center bg-light" style="width:140px; height:100px;">
+            <div class="d-flex align-items-center justify-content-center bg-light" style="width:107px; height:151px;">
               <i class="fa-solid fa-file-lines fa-2x text-muted"></i>
             </div>
           {% endif %}
