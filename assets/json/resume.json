@@ -138,16 +138,33 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Areas of Expertise",
+      "level": "",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Mechanical Design & Prototyping",
+        "Embedded Systems",
+        "Haptics",
+        "Human-Computer Interaction",
+        "Fabrication & Manufacturing"
+      ]
+    },
+    {
+      "name": "Courses Qualified to Teach",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Additive Manufacturing",
+        "Assistive Device Design", 
+        "Computer-Aided Design (CAD)",
+        "Electronics / Circuit Design", 
+        "Embedded Systems", 
+        "Engineering Ethics", 
+        "Fabrication (Metalworking, Woodworking)",
+        "Introductory Robotics", 
+        "Mechatronics",
+        "Rapid Prototyping",
+        "Wearable Device Design"
       ]
     }
   ],
