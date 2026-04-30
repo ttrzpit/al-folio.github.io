@@ -90,27 +90,181 @@
       "highlights": "Awards: Presidential Scholar Award, Emerging Student Leader Award, Legacy Award"
     }
   ],
-  "publications": [
+  "research": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Northwestern Haptics Hab, Northwestern University",
+      "position": "Ph.D. Thesis Research",
+      "location": "Evanston, IL, US",
+      "startDate": "2020-01-01",
+      "endDate": "2026-01-01",
+      "highlights": ["Developed the NURing, a tendon-driven wearable device that enables eyes-free peripersonal and navigational guidance through kinesthetic cues rendered via fingertip deflection. These cues have been shown to allow precise fingertip guidance during hand reach while requiring minimal cue decoding. Additionally, the device’s form factor and feedback modality further allow for intuitive guidance without impeding tactile sensing or hand dexterity.", "Developed a camera-based closed-loop guidance system integrating real-time ArUco marker pose estimation, coordinate transform pipelines, and embedded motor control to guide users’ hands towards objects eyes-free and provide guidance cues for environmental navigation.", "Designed and implemented the full mechatronics stack: tendon-driven actuation mechanism, custom embedded firmware, host-side vision processing pipeline, and microcontroller-Linux communications.", "Conducted IRB-approved user studies with participants who have visual impairments, evaluating guidance performance across target acquisition and object retrieval tasks in real-world environments." , "Resulted in four peer-reviewed publications (IEEE World Haptics 2025, ACM CHI 2026 (x2), IEEE Transactions on Haptics under review), and a filed patent.", "Co-developed a circuit that generates high-speed (20kHz), high-voltage (±220V, 10mA) waveforms to drive electroadhesive brakes and clutches used in our lab's research."]
+    },
+   {
+      "name": "CHARM Lab, Stanford University",
+      "position": "Research Assistant",
+      "location": "Stanford, CA, US",
+      "startDate": "2019-01-01",
+      "endDate": "2020-01-01",
+      "highlights": ["Designed and fabricated a magnetically-coupled robotic crawler that actuated at the end of a soft extensible vine robot, allowing for the end-effector to extend or retract under its own power.", "Improved the production of cable-driven soft vine robots, with a focus on creating a geometry that results in predictable robot behavior."]
+    },
+   {
+      "name": "Design for Extreme Affordability, Stanford University",
+      "position": "Student Researcher",
+      "location": "Stanford, CA, US",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "highlights": ["Worked in a team collaborating with Rare Brazil to identify key barriers to harvest profitability for crab fishermen, finding post-catch spoilage during unrefrigerated storage was the primary source of income loss for economically vulnerable fishing communities.", "Designed and built a motorcycle-pulled transport cart using common parts to enable direct-to-market delivery, incorporating a novel roll-and-pitch joint to maintain cart stability during transport.", "I was then asked to return for a special summer session, travelling to Kenya and partnering with Factor[E] to identify a low-cost storage solution for rural potato farmers. Co-developed a low-cost drying and storage rack that could be assembled without power tools, using readily available materials."] 
+    },
+   {
+      "name": "Mechanical Engineering Design, Stanford University",
+      "position": "Student Researcher",
+      "location": "Stanford, CA, US",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "highlights": ["Worked with a construction industry partner to design and fabricate a novel powder-based fused deposition system for large-scale additive manufacturing using casting wax. My contribution was the design and implementation of the mechatronic system, as well as software / hardware integration."] 
+    },
+   {
+      "name": "Perspectives in Assistive Technology, Stanford University",
+      "position": "Student Researcher",
+      "location": "Stanford, CA, US",
+      "startDate": "2016-01-01",
+      "endDate": "2016-01-01",
+      "highlights": ["Our team developed a running aid for individuals with blindness and vision impairment, including extensive user testing and iterations. My role was to implement the mechatronic components, which included ultrasonic sensing and wireless vibrotactile feedback through wearable haptic wristbands."] 
+    },
+   {
+      "name": "Summer Undergraduate Research Institute, Stanford University",
+      "position": "Researcher",
+      "location": "Stanford, CA, US",
+      "startDate": "2016-01-01",
+      "endDate": "2016-01-01",
+      "highlights": ["Developed Augmented Engineering, a proof-of-concept prototype that utilizes augmented-reality projections of engineering CAD / CAM models within a user’s field of view coupled with language-agnostic visual cues and instructions to allow users to assemble / repair complex physical models."] 
+    },
+   {
+      "name": "NASA High Altitude Ballooning, City Colleges of Chicago",
+      "position": "Researcher",
+      "location": "Chicago, Illinois, US",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01",
+      "highlights": ["Developed an optical sensor payload using common LED modules to measure relative levels of sky glow caused by light pollution, which was flown during special night-time launches." , "Designed, built, and flew experimental payloads launched by high-altitude balloons to an altitude of approximately 30 kilometers under a NASA grant with the City Colleges of Chicago."] 
+    }
+  ],
+  "teaching": [
+    {
+      "name": "Robot Design Studio, Northwestern University",
+      "position": "Co-Instructor",
+      "location": "Evanston, IL, US",
+      "startDate": "2023-01-01",
+      "endDate": "2024-01-01",
+      "highlights": ["Served as a course assistant and then as a co-instructor across two offerings of a 20-student mechanical engineering capstone course, supporting projects including multi-DOF haptic interfaces and a 5-DOF robot arm with series-elastic actuators.","Verified mechanical designs and fabrication, ensured electrical and mechanical subsystem safety, coordinated project documentation, and supported ABET accreditation compliance.","Developed and delivered lectures on mechanical design best practices and team dynamics; coordinated industry guest lecturers; developed and graded student assignments."]
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Electronics Design, Northwestern University",
+      "position": "Teaching Assistant",
+      "location": "Evanston, IL, US",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01",
+      "highlights": ["Tutored students in introductory electrical design and circuit analysis as well as performing hands-on demonstrations during group study sessions.", "Graded over 1,400 assignments for a class of 130 students, plus midterm and final exams; I was also responsible for ensuring that the grading team performed consistently, aiding students in resolving any course grievances."]
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Foundations of Product Realization, Stanford University",
+      "position": "Course Assistant",
+      "location": "Stanford, CA, US",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": ["Re-designed a project-based design course into a fully online format during COVID, coordinating asynchronous instruction for over 100 on-campus and international students, including sourcing and shipping prototyping materials worldwide. Additionally, re-worked the course final project for an online format, where students built a virtual "marble run" segment in SolidWorks, ran rigid-body simulations to verify functionality, and then integrated their segments into a collaborative group assembly", "Led lectures and study sessions in visual communication through sketching, orthographic projection, and CAD (SolidWorks)."]
+    },
+    {
+      "name": "Additive Manufacturing, Stanford University",
+      "position": "Course Assistant",
+      "location": "Stanford, CA, US",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01",
+      "highlights": ["Developed various assignments and course projects for a graduate-level course of 30 students focusing on various methods of additive manufacturing (FDM, SLA, SLS).", "Designed and fabricated testbeds for 3D-printed water pipe fittings, tensile coupons, and metamaterials, which were then used in competitions to evaluate student designs." ]
+    },
+    {
+      "name": "Stanford Product Realization Lab, Stanford University",
+      "position": "Course Assistant",
+      "location": "Stanford, CA, US",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "highlights": ["Taught structured metalworking labs that taught machine lathe and conversational mill use, in addition to oxyacetylene-gas welding and wood turning labs. Lab size was 6-7 students, occurring several times during the quarter. Additionally, mentored 3-4 students during each quarter, with a focus on novel product design and successful fabrication.", "Specialized in rapid prototyping, with a focus on design for fabrication and design for 3D printing using FDM and SLA technologies, as well as prototyping using laser cutting and soft textiles.", "Concurrently served as classroom assistant for Introduction to Product Realization as part of position."]   
+     },
+    {
+      "name": "Smart Robots in the Mix, Stanford University",
+      "position": "Teaching Assistant",
+      "location": "Stanford, CA, US",
+      "startDate": "2016-01-01",
+      "endDate": "2019-01-01",
+      "highlights": ["Served as a member of the teaching team for three offerings, leading lectures on robotics, human-robot interaction, and robot ethics aimed at introducing technical topics to non-STEM majors.", "Coordinated with instructors and special guests to provide classroom resources, online teaching materials, and assignments for a class of 14-20 students. I personally developed the mid-term and final projects for the course, along with relevant documentation and grading rubrics."] 
+     },
+    {
+      "name": "Engineering Projects, City Colleges of Chicago",
+      "position": "Teaching Assistant",
+      "location": "Chicago, IL, US",
+      "startDate": "2014-01-01",
+      "endDate": "2014-01-01",
+      "highlights": ["Helped to design and teach a pilot engineering capstone course for 15 students utilizing the Lego Mindstorms EV3 robotics platform, teaching students the concepts behind robot design, programming, and assembly.", "Prepared classroom materials and developed the final project involving chase-and-evade robot behaviors."]
+     }
+  ],
+  "publications": [],
+  "publications_grouped": [
+    {
+      "heading": "Under Review",
+      "items": [
+        {
+        "type": "Journal Paper",
+        "title": "NURing: Whole-Arm Guidance via Fingertip Deflection While Preserving Touch and Dexterity",
+        "authors": "Trzpit, T., Reardon, G., Shilati, A., Gerber, E., Peshkin, M., Colgate, J.E.",
+        "publisher": "IEEE Transactions on Haptics",
+        "releaseDate": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "heading": "Peer-Reviewed Publications",
+      "items": [
+        {
+        "type": "Conference Paper",
+        "title": "NURing: A Tendon-Driven Wearable Ring for On-Demand Kinesthetic Haptic Feedback.",
+        "authors": "Trzpit, T., Reardon, G., Shilati, A., Gerber, E., Peshkin, M., Colgate, J.E.",
+        "publisher": "IEEE World Haptics Conference 2025.",
+        "releaseDate": "2025-01-01"
+        },
+        {
+        "type": "Conference Paper",
+        "title": "A Game Benchmark for Real-Time Human-Swarm Control.",
+        "authors": "Meyer, J., Pinosky, A., Trzpit, T., Colgate, J.E., Murphey, T.", 
+        "publisher": "IEEE 18th International Conference on Automation Science and Engineering (CASE).",
+        "releaseDate": "2022-01-01"
+        }
+      ]
+    },
+    {
+      "heading": "Posters and Presentations",
+      "items": [
+        {
+        "type": "Interactive Demonstration",
+        "title": "Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing.",
+        "authors": "Trzpit, T., Reardon, G., Gerber, E., Lopes, P., Peshkin, M., Colgate, J.E.", 
+        "publisher": "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems.",
+        "releaseDate": "2026-01-01"
+        },
+        {
+        "type": "Conference Poster",
+        "title": "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval.",
+        "authors": "Trzpit, T., Reardon, G., Gerber, E., Lopes, P., Peshkin, M., Colgate, J.E.", 
+        "publisher": "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems.",
+        "releaseDate": "2026-01-01"
+        },
+        {
+        "type": "Conference Poster",
+        "title": "A Device for Implementing Kinesthetic Fingertip Guidance and Constraint on Planar Surfaces.",
+        "authors": "Trzpit, T., Peshkin, M., Colgate, J.E.", 
+        "publisher": "IEEE World Haptics Conference 2023.",
+        "releaseDate": "2023-01-01"
+        }
+        
+      ]
     }
   ],
   "skills": [

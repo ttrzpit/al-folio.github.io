@@ -1,0 +1,73 @@
+{% comment %}
+  publications_grouped.liquid
+  Renders publications under named sub-headings.
+  Each entry in `entries` has a "heading" string and an "items" array of publication objects.
+  Publication objects support: title/name, url, publisher, releaseDate/date, summary.
+{% endcomment %}
+
+{% for group in entries %}
+  {% if group.items.size > 0 %}
+    <div class="mb-2">
+      {% if group.heading %}
+        <h5 class="font-weight-bold mt-3 mb-1" style="font-size: 1rem; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.25rem;">{{ group.heading }}</h5>
+      {% endif %}
+      <ul class="card-text font-weight-light list-group list-group-flush">
+        {% for entry in group.items %}
+          <li class="list-group-item">
+            <div class="row">
+              {% capture pub_date %}{% if entry.releaseDate %}{{ entry.releaseDate }}{% elsif entry.date %}{{ entry.date }}{% endif %}{% endcapture %}
+              {% if pub_date != '' %}
+                <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                  <table class="table-cv">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                            {{- pub_date | split: '-' | slice: 0, 1 | join: '' -}}
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                  {% if entry.url %}
+                    <h6 class="title font-weight-bold ml-1 ml-md-4">{% if entry.type %}<span class="font-weight-medium">{{ entry.type }}:</span> {% endif %}<a href="{{ entry.url }}">{{ entry.title | default: entry.name }}</a></h6>
+                  {% elsif entry.title or entry.name %}
+                    <h6 class="title font-weight-bold ml-1 ml-md-4">{% if entry.type %}<span class="font-weight-medium">{{ entry.type }}:</span> {% endif %}{{ entry.title | default: entry.name }}</h6>
+                  {% endif %}
+                  {% if entry.authors %}
+                    <h6 class="ml-1 ml-md-4 font-weight-light" style="font-size: 0.95rem">{{ entry.authors }}</h6>
+                  {% endif %}
+                  {% if entry.publisher %}
+                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><em>{{ entry.publisher }}</em></h6>
+                  {% endif %}
+                  {% if entry.summary %}
+                    <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                  {% endif %}
+                </div>
+              {% else %}
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  {% if entry.url %}
+                    <h6 class="title font-weight-bold ml-1 ml-md-4">{% if entry.type %}<span class="font-weight-medium">{{ entry.type }}:</span> {% endif %}<a href="{{ entry.url }}">{{ entry.title | default: entry.name }}</a></h6>
+                  {% elsif entry.title or entry.name %}
+                    <h6 class="title font-weight-bold ml-1 ml-md-4">{% if entry.type %}<span class="font-weight-medium">{{ entry.type }}:</span> {% endif %}{{ entry.title | default: entry.name }}</h6>
+                  {% endif %}
+                  {% if entry.authors %}
+                    <h6 class="ml-1 ml-md-4 font-weight-light" style="font-size: 0.95rem">{{ entry.authors }}</h6>
+                  {% endif %}
+                  {% if entry.publisher %}
+                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><em>{{ entry.publisher }}</em></h6>
+                  {% endif %}
+                  {% if entry.summary %}
+                    <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endfor %}

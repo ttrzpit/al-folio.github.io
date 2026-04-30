@@ -265,7 +265,7 @@ layout: default
         {% if site.data.resume.skills.size > 0 %}
           <a class="anchor" id="synopsis"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Synopsis</h3>
+            <h3 class="card-title font-weight-medium">Expertise and Instruction Synopsis</h3>
             <div>
               {% assign entries = site.data.resume.skills %}
               {% include cv/skills.liquid %}
@@ -297,7 +297,31 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- JSONResume Sections - Merge work and volunteer into Experience -->
+        <!-- Research Experience -->
+        {% if site.data.resume.research.size > 0 %}
+          <a class="anchor" id="research-experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Research Experience</h3>
+            <div>
+              {% assign entries = site.data.resume.research %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Teaching Experience -->
+        {% if site.data.resume.teaching.size > 0 %}
+          <a class="anchor" id="teaching-experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Teaching Experience</h3>
+            <div>
+              {% assign entries = site.data.resume.teaching %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Professional Experience -->
         {% assign empty_array = '' | split: ',' %}
         {% assign work = site.data.resume.work | default: empty_array %}
         {% assign vol = site.data.resume.volunteer | default: empty_array %}
@@ -305,7 +329,7 @@ layout: default
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
+            <h3 class="card-title font-weight-medium">Professional Experience</h3>
             <div>
               {% assign entries = combined_experience %}
               {% include cv/experience.liquid %}
@@ -326,7 +350,16 @@ layout: default
         {% endif %}
 
         <!-- Publications -->
-        {% if site.data.resume.publications.size > 0 %}
+        {% if site.data.resume.publications_grouped.size > 0 %}
+          <a class="anchor" id="publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Publications</h3>
+            <div>
+              {% assign entries = site.data.resume.publications_grouped %}
+              {% include cv/publications_grouped.liquid %}
+            </div>
+          </div>
+        {% elsif site.data.resume.publications.size > 0 %}
           <a class="anchor" id="publications"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Publications</h3>
