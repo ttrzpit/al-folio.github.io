@@ -72,7 +72,7 @@
   ],
   "education": [
     {
-      "institution": "Northwestern University - McCormick School of Engineering",
+      "institution": "Northwestern University - McCormick School of Engineering (Evanston, IL)",
       "area": "Guidance and Navigation through Kinesthetic Fingertip Deflection Cues for Wearable Haptic Devices",
       "studyType": "Ph.D in Mechanical Engineering",
       "startDate": "2020-01-01",
@@ -82,7 +82,7 @@
       "highlights": ""
     },
     {
-      "institution": "Stanford University",
+      "institution": "Stanford University (Stanford, CA)",
       "area": "Mechanical Engineering",
       "studyType": "Master of Science in Mechanical Engineering",
       "startDate": "2015-01-01",
@@ -92,7 +92,7 @@
       "highlights": ""
     },
     {
-      "institution": "Stanford University",
+      "institution": "Stanford University (Stanford, CA)",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Science in Mechanical Engineering",
       "startDate": "2015-01-01",
@@ -102,7 +102,7 @@
       "highlights": "Certificates: Notation in Science Communication"
     },
     {
-      "institution": "City Colleges of Chicago",
+      "institution": "City Colleges of Chicago (Chicago, IL)",
       "area": "",
       "studyType": "Associate Degree in Science",
       "startDate": "2013-01-01",
@@ -167,18 +167,56 @@
       ]
     }
   ],
-  "languages": [
+  "skills_detailed": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "category": "Technical & Systems Skills",
+      "items": [
+        {
+          "label": "Hardware & Fabrication",
+          "description": "Metalworking (machine lathe, manual mill, 3-axis CNC); rapid prototyping through SLA and filament-based 3D printing, laser cutting, and soft textiles."
+        },
+        {
+          "label": "Software & Programming",
+          "description": "C/C++, MATLAB, embedded firmware development (Teensy, Arduino-class platforms), marker-based vision tracking and pose estimation, sensor fusion."
+        },
+        {
+          "label": "Mechanical & System Design",
+          "description": "SOLIDWORKS, HSM Works; wearable haptic feedback system design, tendon-driven kinesthetic mechanisms, mechatronic system integration."
+        }
+      ]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "category": "Research Skills",
+      "items": [
+        {
+          "label": "Human-Computer Interaction & Assistive Technology",
+          "description": "Haptic system design and evaluation, eyes-free guidance, inclusive research design for participants with visual impairments, wearable assistive devices."
+        },
+        {
+          "label": "Study Design & Methods",
+          "description": "User study design, user study design for blind / vision-impaired participants, inclusive research design."
+        },
+        {
+          "label": "Academic Communications",
+          "description": "Publication to IEEE and ACM standards (journal and conference papers, posters), technical writing, science communication (Stanford Notation in Science Communication)."
+        }
+      ]
+    },
+    {
+      "category": "Design and Communication Skills",
+      "items": [
+        {
+          "label": "Graphic & Visual Design",
+          "description": "Adobe Creative Suite (Photoshop, Illustrator, Premiere), Autodesk 3D Studio."
+        },
+        {
+          "label": "Languages & Outreach",
+          "description": "Native fluency in English and Polish; community mentorship and STEM outreach, including cross-institutional and international collaboration."
+        }
+      ]
     }
   ],
+
   "interests": [
     {
       "name": "Physics",
@@ -191,27 +229,6 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
     }
   ]
 }

@@ -260,6 +260,30 @@ layout: default
           </div>
         {% endif %}
 
+        <!-- Synopsis (formerly Skills) -->
+        {% if site.data.resume.skills.size > 0 %}
+          <a class="anchor" id="synopsis"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Synopsis</h3>
+            <div>
+              {% assign entries = site.data.resume.skills %}
+              {% include cv/skills.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Skills -->
+        {% if site.data.resume.skills_detailed.size > 0 %}
+          <a class="anchor" id="skills"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Skills</h3>
+            <div>
+              {% assign entries = site.data.resume.skills_detailed %}
+              {% include cv/skills_detailed.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
         <!-- Education -->
         {% if site.data.resume.education.size > 0 %}
           <a class="anchor" id="education"></a>
@@ -272,18 +296,6 @@ layout: default
           </div>
         {% endif %}
 
-     <!-- Skills -->
-        {% if site.data.resume.skills.size > 0 %}
-          <a class="anchor" id="skills"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Expertise and Instruction Synopsis</h3>
-            <div>
-              {% assign entries = site.data.resume.skills %}
-              {% include cv/skills.liquid %}
-            </div>
-          </div>
-        {% endif %}
-        
         <!-- JSONResume Sections - Merge work and volunteer into Experience -->
         {% assign empty_array = '' | split: ',' %}
         {% assign work = site.data.resume.work | default: empty_array %}
@@ -299,7 +311,7 @@ layout: default
             </div>
           </div>
         {% endif %}
-        
+
         <!-- Awards -->
         {% if site.data.resume.awards.size > 0 %}
           <a class="anchor" id="awards"></a>
@@ -323,8 +335,6 @@ layout: default
             </div>
           </div>
         {% endif %}
-
-   
 
         <!-- Languages -->
         {% if site.data.resume.languages.size > 0 %}

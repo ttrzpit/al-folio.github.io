@@ -1,0 +1,24 @@
+{% comment %}
+  skills_detailed.liquid
+  Renders grouped skills: each entry has a "category" heading and "items" array of label+description pairs.
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for group in entries %}
+    <div class="skills-group mb-3">
+      {% if group.category %}
+        <h6 class="font-weight-bold mb-2">{{ group.category }}</h6>
+      {% endif %}
+      {% if group.items %}
+        <ul class="list-unstyled mb-0 pl-3">
+          {% for item in group.items %}
+            <li class="mb-1">
+              {% if item.label %}<strong>{{ item.label }}:</strong> {% endif %}
+              {{ item.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
