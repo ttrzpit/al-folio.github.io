@@ -1,8 +1,8 @@
-- title: "A Human‑Centered Haptics Approach"
-  citation: "T. Trzpit, A. Researcher. <em>Journal of Haptics</em>, 2025."
-  journal: "Journal of Haptics"
-  year: 2025
-  thumbnail: "/assets/img/papers/haptics-thumb.jpg"
-  url: "https://journal.example.org/article/12345"
-  pdf: "/assets/papers/haptics.pdf"
-  code: "https://github.com/username/repo"
+- title: "Poster Extended Abstract:Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval"
+  citation: "Pawel Trzpit, Tomasz and Reardon, Gregory and Gerber, Elizabeth and Lopes, Pedro and Peshkin, Michael and Colgate, J Edward"
+  journal: "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
+  year: 2026
+  thumbnail: "/assets/img/papers/CHI-Poster-Abstract.jpg"
+  url: "https://dl.acm.org/doi/full/10.1145/3772363.3799007"
+  pdf: "/assets/papers/Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
+  code: ""
