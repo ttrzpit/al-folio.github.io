@@ -1,0 +1,8 @@
+- title: "A Human‑Centered Haptics Approach"
+  citation: "T. Trzpit, A. Researcher. <em>Journal of Haptics</em>, 2025."
+  journal: "Journal of Haptics"
+  year: 2025
+  thumbnail: "/assets/img/papers/haptics-thumb.jpg"
+  url: "https://journal.example.org/article/12345"
+  pdf: "/assets/papers/haptics.pdf"
+  code: "https://github.com/username/repo"

@@ -1,0 +1,55 @@
+{% comment %}
+  publications.liquid
+  - Usage: {% include publications.liquid publications=site.data.publications %}
+  - Falls back to site.data.publications, site.data.papers, or site.data.bibliography
+  - Each entry supports: thumbnail, title, citation (or summary), journal, year, url, pdf
+{% endcomment %}
+
+{% assign pubs = include.publications | default: site.data.publications | default: site.data.papers | default: site.data.bibliography | default: '' %}
+{% if pubs == '' %}
+  <p>No publications found. Add a data file at _data/publications.yml (or pass publications= to the include).</p>
+{% else %}
+  <div class="row">
+    {% for p in pubs %}
+      <div class="col-sm-6 col-md-4 mb-3">
+        <div class="card h-100">
+          {% if p.thumbnail %}
+            <a href="{{ p.url | default: p.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
+              <img src="{{ p.thumbnail | relative_url }}" class="card-img-top" alt="{{ p.title | default: p.citation | escape }}">
+            </a>
+          {% else %}
+            <div class="card-img-top d-flex align-items-center justify-content-center bg-light" style="height:180px;">
+              <i class="fa-solid fa-file-lines fa-3x text-muted"></i>
+            </div>
+          {% endif %}
+
+          <div class="card-body d-flex flex-column">
+            {% if p.title %}<h5 class="card-title mb-2">{{ p.title }}</h5>{% endif %}
+            {% if p.citation %}
+              <p class="card-text mb-2">{{ p.citation | markdownify | strip_newlines }}</p>
+            {% elsif p.summary %}
+              <p class="card-text mb-2">{{ p.summary | markdownify | strip_newlines }}</p>
+            {% endif %}
+
+            <p class="text-muted small mb-2">
+              {% if p.journal %}{{ p.journal }}{% endif %}
+              {% if p.year %}{% if p.journal %} • {% endif %}{{ p.year }}{% endif %}
+            </p>
+
+            <div class="mt-auto">
+              {% if p.url %}
+                <a href="{{ p.url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer">View</a>
+              {% endif %}
+              {% if p.pdf %}
+                <a href="{{ p.pdf }}" class="btn btn-outline-secondary btn-sm ms-2" target="_blank" rel="noopener noreferrer">PDF</a>
+              {% endif %}
+              {% if p.code %}
+                <a href="{{ p.code }}" class="btn btn-outline-info btn-sm ms-2" target="_blank" rel="noopener noreferrer">Code</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

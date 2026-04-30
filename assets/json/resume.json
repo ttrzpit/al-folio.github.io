@@ -73,8 +73,7 @@
   "education": [
     {
       "institution": "Northwestern University - McCormick School of Engineering",
-      "location": "",
-      "url": "https://sites.northwestern.edu/hapticsgroup/",
+      "url": "",
       "area": "Guidance and Navigation through Kinesthetic Fingertip Deflection Cues for Wearable Haptic Devices",
       "studyType": "Ph.D in Mechanical Engineering",
       "startDate": "2020-01-01",
@@ -85,7 +84,6 @@
     },
     {
       "institution": "Stanford University",
-      "location": "",
       "area": "Mechanical Engineering",
       "studyType": "Master of Science in Mechanical Engineering",
       "startDate": "2015-01-01",
@@ -96,18 +94,16 @@
     },
     {
       "institution": "Stanford University",
-      "location": "",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Science in Mechanical Engineering",
       "startDate": "2015-01-01",
       "endDate": "2020-01-01",
       "score": "",
       "courses": ["Relevant Courses: Introduction to Mechatronics, Mechanical Engineering Design Practicum, Perspectives in Assistive Technology, Precision Engineering, Science and Engineering Course Design"],
-      "highlights": "Notation in Science Communication"
+      "highlights": "Certificates: Notation in Science Communication"
     },
     {
       "institution": "City Colleges of Chicago",
-      "location": "",
       "area": "",
       "studyType": "Associate Degree in Science",
       "startDate": "2013-01-01",
@@ -115,26 +111,6 @@
       "score": "",
       "courses": ["Fellowships: NASA High Altitude Ballooning Research (NASA-HAB 2015)"],
       "highlights": "Awards: Presidential Scholar Award, Emerging Student Leader Award, Legacy Award"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
     }
   ],
   "publications": [

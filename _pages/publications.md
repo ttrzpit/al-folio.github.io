@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: publications
 permalink: /publications/
 title: Publications
 description: Current publications.
@@ -7,14 +7,5 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
+{% include publications.liquid publications=site.data.publications %}
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
