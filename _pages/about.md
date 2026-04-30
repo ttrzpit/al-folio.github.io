@@ -7,7 +7,7 @@ subtitle: Ph.D. Candidate at Northwestern University's Center for Robotics and B
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>ttrzpit@u.northwestern.edu</p>
     <p>Chicago, IL</p>
