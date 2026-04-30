@@ -38,7 +38,7 @@
           {% if p.journal or p.year %}
             <p class="mb-0 small text-muted">
               {% if p.journal %}<em>{{ p.journal }}</em>{% endif %}
-              {% if p.year %}{% if p.journal %}, {% endif %}{{ p.year }}{% endif %}
+              {% if p.year %}<br>{{ p.year }}{% endif %}
             </p>
           {% endif %}
         </div>
