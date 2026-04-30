@@ -1,16 +1,24 @@
+- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Poster)"
+  citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
+  journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
+  year: 2026
+  thumbnail: "/assets/img/papers/CHI-Poster.jpg"
+  url: "/assets/papers/Poster - Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
+  pdf: "/assets/papers/Poster - Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
+  
 - title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Poster Extended Abstract)"
-  citation: "Pawel Trzpit, Tomasz and Reardon, Gregory and Gerber, Elizabeth and Lopes, Pedro and Peshkin, Michael and Colgate, J Edward"
-  journal: "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
+  citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
+  journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
   year: 2026
   thumbnail: "/assets/img/papers/CHI-Poster-Abstract.jpg"
   url: "https://dl.acm.org/doi/full/10.1145/3772363.3799007"
   pdf: "/assets/papers/Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
-  code: ""
-- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Poster Extended Abstract)"
-  citation: "Pawel Trzpit, Tomasz and Reardon, Gregory and Gerber, Elizabeth and Lopes, Pedro and Peshkin, Michael and Colgate, J Edward"
-  journal: "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
+  
+- title: "Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing (Interactive Demo Extended Abstract)"
+  citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
+  journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
   year: 2026
-  thumbnail: "/assets/img/papers/CHI-Poster-Abstract.jpg"
-  url: "https://dl.acm.org/doi/full/10.1145/3772363.3799007"
-  pdf: "/assets/papers/Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
-  code: ""
+  thumbnail: "/assets/img/papers/CHI-Demo-Abstract.jpg"
+  url: "https://dl.acm.org/doi/full/10.1145/3772363.3799146"
+  pdf: "/assets/papers/Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing - CHI 2026.pdf"
+  
