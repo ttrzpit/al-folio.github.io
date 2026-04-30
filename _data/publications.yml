@@ -1,4 +1,4 @@
-- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Poster)"
+- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Conference Poster)"
   citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
   journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
   year: 2026
@@ -6,7 +6,7 @@
   url: "/assets/papers/Poster - Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
   pdf: "/assets/papers/Poster - Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
   
-- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Poster Extended Abstract)"
+- title: "Camera-Based Closed-Loop Fingertip Deflection Guidance: Pilot Demonstrations in Target Acquisition and Object Retrieval (Conference Poster, Extended Abstract)"
   citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
   journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
   year: 2026
@@ -14,11 +14,36 @@
   url: "https://dl.acm.org/doi/full/10.1145/3772363.3799007"
   pdf: "/assets/papers/Camera-Based Closed-Loop Fingertip Deflection Guidance - Pilot Demonstrations in Target Acquisition and Object Retrieval - CHI 2026.pdf"
   
-- title: "Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing (Interactive Demo Extended Abstract)"
+- title: "Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing (Conference Interactive Demo, Extended Abstract)"
   citation: "Tomasz Pawel Trzpit, Gregory Reardon, Elizabeth Gerber, Pedro Lopes, Michael Peshkin, J. Edward Colgate"
   journal: "CHI EA '26: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems"
   year: 2026
   thumbnail: "/assets/img/papers/CHI-Demo-Abstract.jpg"
   url: "https://dl.acm.org/doi/full/10.1145/3772363.3799146"
   pdf: "/assets/papers/Demonstrating Eyes-Free Object Retrieval via Fingertip Deflection Guidance Using the NURing - CHI 2026.pdf"
+  
+- title: "NURing: A Tendon-Driven Wearable Ring for On-Demand Kinesthetic Haptic Feedback (Conference Paper)"
+  citation: "Tomasz Pawel Trzpit, Gregory Reardon, Anthony Shilati, Elizabeth Gerber, Michael Peshkin, J. Edward Colgate"
+  journal: "2025 IEEE World Haptics Conference (WHC)"
+  year: 2025
+  thumbnail: "/assets/img/papers/WHC-NURing.jpg"
+  url: "https://ieeexplore.ieee.org/abstract/document/11123213"
+  pdf: "/assets/papers/NURing - A Tendon-Driven Wearable Ring for On-Demand Kinesthetic Haptic Feedback - WHC 2025.pdf"
+
+- title: "A Device for Implementing Kinesthetic Fingertip Guidance and Constraint on Planar Surfaces (Conference Poster)"
+  citation: "Tomasz Pawel Trzpit, Michael Peshkin, J. Edward Colgate"
+  journal: "2023 IEEE World Haptics Conference (WHC)"
+  year: 2023
+  thumbnail: "/assets/img/papers/WHC-Touchbot.jpg"
+  url: "/assets/papers/Poster - Fingertip Guidance - WHC 2023.pdf"
+  pdf: "/assets/papers/Poster - Fingertip Guidance - WHC 2023.pdf"
+  
+- title: "A Device for Implementing Kinesthetic Fingertip Guidance and Constraint on Planar Surfaces (Conference Poster, Abstract)"
+  citation: "Tomasz Pawel Trzpit, Michael Peshkin, J. Edward Colgate"
+  journal: "2023 IEEE World Haptics Conference (WHC)"
+  year: 2023
+  thumbnail: "/assets/img/papers/WHC-Touchbot.jpg"
+  url: "https://2023.worldhaptics.org/wp-content/uploads/2023/06/1125-doc.pdf"
+  pdf: "/assets/papers/A Device for Implementing Kinesthetic Fingertip Guidance and Constraint on Planar Surfaces - WHC 2023.pdf"
+  
   
