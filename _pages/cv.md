@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/TeachingCV.pdf # you can also use external links here
 cv_format: jsonresume # options: rendercv, jsonresume
-description: Below is my latest academic CV, updated May 1, 2026.
+description: Latest academic CV, updated May 1, 2026.
 toc:
   sidebar: left
 ---

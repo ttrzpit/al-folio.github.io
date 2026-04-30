@@ -72,16 +72,16 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Northwestern University - McCormick School of Engineering",
+      "location": "Evanston, Illinois",
+      "url": "https://sites.northwestern.edu/hapticsgroup/",
+      "area": "Guidance and Navigation through Kinesthetic Fingertip Deflection Cues for Wearable Haptic Devices",
+      "studyType": "Ph.D",
+      "startDate": "2020-01-01",
+      "endDate": "2026-01-01",
       "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "courses": ["Relevant Courses: Advanced Mechatronics, Designing Product Interactions, Embedded Systems in Robotics, Human Perception and Electronic Media, Micromanufacturing"],
+      "highlights": ""
     },
     {
       "institution": "Eidgenössische Technische Hochschule",
