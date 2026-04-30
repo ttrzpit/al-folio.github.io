@@ -33,18 +33,6 @@
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
-              {% if location != '' %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      {{ location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
             </tbody>
           </table>
         </div>
@@ -64,8 +52,12 @@
           {% capture company_name %}
             {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
           {% endcapture %}
+          {% capture location %}{% if entry.location %}{{ entry.location }}{% endif %}{% endcapture %}
           {% if company_name != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
+            <h6 class="ml-1 ml-md-4 mb-0" style="font-size: 0.95rem">{{ company_name }}</h6>
+          {% endif %}
+          {% if location != '' %}
+            <p class="ml-1 ml-md-4 mt-0 mb-1" style="font-size: 0.85rem; color: var(--global-text-color-light);">{{ location }}</p>
           {% endif %}
 
           {% if entry.summary %}

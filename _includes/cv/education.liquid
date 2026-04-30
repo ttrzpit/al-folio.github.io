@@ -35,18 +35,6 @@
                   {% endif %}
                 </td>
               </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
-              {% if location != '' %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      {{ location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
             </tbody>
           </table>
         </div>
@@ -63,8 +51,12 @@
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type }}</h6>
           {% endif %}
 
+          {% capture location %}{% if entry.location %}{{ entry.location }}{% endif %}{% endcapture %}
           {% if entry.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+            <h6 class="ml-1 ml-md-4 mb-0" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+          {% endif %}
+          {% if location != '' %}
+            <p class="ml-1 ml-md-4 mt-0 mb-1" style="font-size: 0.85rem; color: var(--global-text-color-light);">{{ location }}</p>
           {% endif %}
 
           {% if entry.area %}
