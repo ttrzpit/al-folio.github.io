@@ -14,60 +14,38 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Engineering Excellence Group - Laing O'Rourke",
+      "position": "Robotics Engineer",
+      "location": "Sydney, Australia",
+      "startDate": "2017-01-01",
+      "endDate": "2017-01-01",
+      "highlights": ["Part of a team that researched and developed wearable haptic-feedback devices to provide computer-vision based alerts to equipment operators within construction sites. The device is now commercially available (The Toolbox Spotter) and won the 2019 Australasian Rail Industry’s Innovation and Technology Award.", "My contributions included implementing an encrypted wireless network utilizing the XBee protocol to coordinate between sensors, processing nodes, and feedback devices with an outdoor range of one kilometer. I also developed the wireless haptic feedback wristbands (AlertWear) used by the system.", "Responsible for circuit design, embedded device programming, and testing of the haptic and network elements in situ at the Royal Australian Air Force Base Amberley in Queensland, Australia."]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "M3 Capital Partners, LLC",
+      "position": "Senior Graphics Specialist",
+      "location": "Chicago, Illinois, US",
+      "startDate": "2002-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Prior to returning to school and pursuing an education in engineering, I served as the head of graphic design and production for an international capital management firm, where I created digital and print media for multiple clients in multiple languages with an eye towards maintaining corporate standards and a strong attention to detail in a high-paced environment."
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
+      "organization": "Stanford Transfer Network",
+      "location": "Stanford, CA",
+      "position": "Co-President",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Worked with the Vice Provost for Teaching and Learning to mentor to incoming transfer students."
+    },
+    {
+      "organization": "Society of Hispanic Professional Engineers, City Colleges of Chicago",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "highlights": ["Served as president of the Richard J. Daley College chapter representing the City Colleges of Chicago, during which time we grew membership in the organization from 9 to over 40 students.", "Organized a student delegation for the Collegiate Leadership Development Program, which resulted in fifteen members earning scholarships to the 2015 United States Hispanic Leadership Institute Conference.", "Spearheaded the creation of a partnership with Sarah E. Goode STEM Academy (Chicago), in which members of our chapter would spend two hours a week mentoring high school students in STEM courses and activities, as well as tutoring dual-enrollment students"]
     }
   ],
   "education": [
@@ -210,24 +188,9 @@
           "description": "Adobe Creative Suite (Photoshop, Illustrator, Premiere), Autodesk 3D Studio."
         },
         {
-          "label": "Languages & Outreach",
-          "description": "Native fluency in English and Polish; community mentorship and STEM outreach, including cross-institutional and international collaboration."
+          "label": "Languages and Communication",
+          "description": "Native fluency in English and Polish, beginner proficiency in Spanish."
         }
-      ]
-    }
-  ],
-
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
       ]
     }
   ]
