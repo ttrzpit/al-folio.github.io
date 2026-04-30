@@ -73,10 +73,10 @@
   "education": [
     {
       "institution": "Northwestern University - McCormick School of Engineering",
-      "location": "Evanston, Illinois",
+      "location": "",
       "url": "https://sites.northwestern.edu/hapticsgroup/",
       "area": "Guidance and Navigation through Kinesthetic Fingertip Deflection Cues for Wearable Haptic Devices",
-      "studyType": "Ph.D",
+      "studyType": "Ph.D in Mechanical Engineering",
       "startDate": "2020-01-01",
       "endDate": "2026-01-01",
       "score": "",
@@ -84,30 +84,37 @@
       "highlights": ""
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "institution": "Stanford University",
+      "location": "",
+      "area": "Mechanical Engineering",
+      "studyType": "Master of Science in Mechanical Engineering",
+      "startDate": "2015-01-01",
+      "endDate": "2020-01-01",
       "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "courses": ["Relevant Courses: Computer-Aided Product Creation, Design and Control of Haptic Systems, Design for Extreme Affordability, Medical Robotics, Orthopedic Bioengineering, Principles of Robot Autonomy, Techniques of Failure Analysis"],
+      "highlights": ""
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "institution": "Stanford University",
+      "location": "",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Science in Mechanical Engineering",
+      "startDate": "2015-01-01",
+      "endDate": "2020-01-01",
+      "score": "",
+      "courses": ["Relevant Courses: Introduction to Mechatronics, Mechanical Engineering Design Practicum, Perspectives in Assistive Technology, Precision Engineering, Science and Engineering Course Design"],
+      "highlights": "Notation in Science Communication"
+    },
+    {
+      "institution": "City Colleges of Chicago",
+      "location": "",
+      "area": "",
+      "studyType": "Associate Degree in Science",
+      "startDate": "2013-01-01",
+      "endDate": "2015-01-01",
+      "score": "",
+      "courses": ["Fellowships: NASA High Altitude Ballooning Research (NASA-HAB 2015)"],
+      "highlights": "Awards: Presidential Scholar Award, Emerging Student Leader Award, Legacy Award"
     }
   ],
   "certificates": [
