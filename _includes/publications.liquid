@@ -26,9 +26,9 @@
 
         <div class="flex-grow-1">
           {% if p.title %}
-            <h5 class="mb-1 font-weight-normal">
+            <h6 class="mb-1 font-weight-normal">
               <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none" style="color: #000;">{% if p.type %}<strong>{{ p.type }}:</strong> {% endif %}{{ p.title }}</a>
-            </h5>
+            </h6>
           {% endif %}
           {% if p.citation %}
             <p class="mb-1 text-muted">{{ p.citation | markdownify | strip_newlines }}</p>
