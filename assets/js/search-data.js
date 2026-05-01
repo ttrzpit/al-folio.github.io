@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-the-nuring",
+          title: "The NURing",
+          description: "Kinesthetic Guidance for Eyes-Free Interaction",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/nuring/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "Current publications.",
           section: "Navigation",
