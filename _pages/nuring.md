@@ -3,7 +3,7 @@ layout: project
 permalink: /nuring/
 title: The NURing
 description: A tendon-driven wearable device for eyes-free kinesthetic guidance through fingertip deflection.
-nav: true
+nav: false
 nav_order: 2
 ---
 
