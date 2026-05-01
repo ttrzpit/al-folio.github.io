@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-the-nuring",
-          title: "The NURing",
-          description: "A tendon-driven wearable device for eyes-free kinesthetic guidance through fingertip deflection.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/nuring/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "Current publications.",
           section: "Navigation",
