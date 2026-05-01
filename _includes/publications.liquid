@@ -27,7 +27,7 @@
         <div class="flex-grow-1">
           {% if p.title %}
             <h5 class="mb-1">
-              <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">{{ p.title }}</a>
+              {% if p.type %}<span class="font-weight-medium">{{ p.type }}:</span> {% endif %}<a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">{{ p.title }}</a>
             </h5>
           {% endif %}
           {% if p.citation %}
