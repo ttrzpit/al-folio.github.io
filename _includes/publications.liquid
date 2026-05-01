@@ -31,9 +31,9 @@
             </h6>
           {% endif %}
           {% if p.citation %}
-            <p class="mb-1 text-muted">{{ p.citation | markdownify | strip_newlines }}</p>
+            <p class="mb-1 text-muted small">{{ p.citation | markdownify | strip_newlines }}</p>
           {% elsif p.summary %}
-            <p class="mb-1 text-muted">{{ p.summary | markdownify | strip_newlines }}</p>
+            <p class="mb-1 text-muted small">{{ p.summary | markdownify | strip_newlines }}</p>
           {% endif %}
           {% if p.journal or p.year %}
             <p class="mb-0 small text-muted">
