@@ -3,9 +3,9 @@ layout: page
 title: Projects
 permalink: /Projects/
 description: Projects.
-nav: false
+nav: true
 nav_order: 4
-display_categories: [work, fun]
+display_categories: []
 horizontal: false
 ---
 
