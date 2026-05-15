@@ -2,7 +2,7 @@
 layout: page
 title: AlertWear and the Toolbox Spotter
 description: A wearable designed to keep construction sites safe. 
-img: assets/projects/TooSpo_AlertWear.jpg
+img: assets/img/projects/TooSpo_AlertWear.jpg
 importance: 2
 category: Engineering
 related_publications: false
