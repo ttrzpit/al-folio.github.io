@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /Projects/
-description: Projects.
+description: An evolving collection of my projects, still under construction.
 nav: true
 nav_order: 4
 display_categories: [Engineering]
