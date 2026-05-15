@@ -5,7 +5,7 @@ description: A wearable designed to keep construction sites safe.
 img: assets/projects/TooSpo_AlertWear.jpg
 importance: 2
 category: Engineering
-giscus_comments: true
+related_publications: false
 ---
 
 *August 2017*
@@ -19,7 +19,7 @@ More details on the Toolbox Spotter and its architecture are available in this p
     
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/TooSpo_AlertWear.jpg" title="AlertWear device." class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/TooSpo_AlertWearShort.jpg" title="AlertWear device." class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
