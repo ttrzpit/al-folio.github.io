@@ -5,7 +5,7 @@ permalink: /Projects/
 description: An evolving collection of my projects, still under construction.
 nav: true
 nav_order: 4
-display_categories: [Engineering]
+display_categories: [Engineering Projects]
 horizontal: false
 ---
 

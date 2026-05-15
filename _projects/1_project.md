@@ -4,7 +4,7 @@ title: Pneumatic Steam Engine
 description: Precision fabrication project.
 img: assets/img/projects/PneSteEng_HeroShot.jpg
 importance: 1
-category: Engineering
+category: Engineering Projects
 related_publications: false
 ---
 
