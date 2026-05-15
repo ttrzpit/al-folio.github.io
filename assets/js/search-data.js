@@ -421,9 +421,9 @@ ninja.data = [{
           description: "Precision fabrication project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-alertwear-and-the-toolbox-spotter",
+          title: 'Alertwear and the Toolbox Spotter',
+          description: "A wearable designed to keep construction sites safe.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
