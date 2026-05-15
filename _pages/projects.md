@@ -5,7 +5,7 @@ permalink: /Projects/
 description: Projects.
 nav: true
 nav_order: 4
-display_categories: [engineering]
+display_categories: [Engineering]
 horizontal: false
 ---
 
