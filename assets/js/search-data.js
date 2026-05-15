@@ -418,7 +418,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-pneumatic-steam-engine",
           title: 'Pneumatic Steam Engine',
-          description: "with background image",
+          description: "Precision fabrication project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
