@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kinetic Art Installation
-description: Designed and built for artist Terry Berlier. 
+description: Mechatronic system designed and built for artist Terry Berlier. 
 img: assets/img/projects/TerBer_PulleyBoxInternal.jpg
 importance: 2
 category: Engineering Projects
@@ -36,5 +36,16 @@ More information about the project, and to see videodetails on the Toolbox Spott
 <div class="caption">
     The wearable prototype that I developed, along with the internals squeezed into this alpha version. 
 </div>
+   
+   
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://player.vimeo.com/video/342512226" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
+</div>
+<div class="caption">
+    Video of the Pneumatic Steam Engine running using shop air (turn on the sound, it's very satisfying!).
+</div>
+
 
 
