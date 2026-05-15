@@ -7,7 +7,8 @@ importance: 1
 category: Engineering
 related_publications: false
 ---
-December 2016
+
+*December 2016*
 
 This was my final project for my Product Realization: Design and Making course. I had found an old model of a steam engine, and adapted it to run on compressed air. This required very tight tolerances between the piston and cylinder, and in the end the gap between them was less than 0.002". 
     
@@ -27,7 +28,7 @@ This was my final project for my Product Realization: Design and Making course. 
         {% include figure.liquid path="assets/img/projects/PneSteEng_PolishedBlock.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img//projects/PneSteEng_RotaryValve.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/PneSteEng_RotaryValve.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
