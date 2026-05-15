@@ -1,25 +1,29 @@
 ---
 layout: page
-title: Alertwear and the Toolbox Spotter
+title: AlertWear and the Toolbox Spotter
 description: A wearable designed to keep construction sites safe. 
-img: assets/projects/TppSpo_AlertWear.jpg
+img: assets/projects/TooSpo_AlertWear.jpg
 importance: 2
 category: Engineering
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+August 2017
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+During an internship with the Engineering Excellence Group (Part of Laing O'Rourke, a multinational engineering and construction company), I was fortunate enough to have been part of the team that designed and developed the AlertWear (wearable haptic feedback device) and Toolbox Spotter (a portable computer-vision-based alert system), to keep people safe within construction sites. The device is now commercially available and won the 2019 Australasian Rail Industry’s Innovation and Technology Award. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+For my part, I designed and built the AlertWear device. This wearable would receive wireless network alerts in real time from the Toolbox Spotter, and warn the wearer of potential hazards to them or the equipment they are operating. Additionally, I designed and implemented the encrypted wireless network that utilized the XBee radio protocol to coordinate between sensors, processing nodes, and feedback devices with an outdoor range of one kilometer.
+
+    
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/TooSpo_AlertWear.jpg" title="AlertWear device." class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    The final AlertWear prototype. 
+</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
