@@ -428,7 +428,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-kinetic-art-installation",
           title: 'Kinetic Art Installation',
-          description: "Designed and built for artist Terry Berlier.",
+          description: "Mechatronic system designed and built for artist Terry Berlier.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
