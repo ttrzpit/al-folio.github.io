@@ -422,7 +422,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-alertwear-and-the-toolbox-spotter",
-          title: 'Alertwear and the Toolbox Spotter',
+          title: 'AlertWear and the Toolbox Spotter',
           description: "A wearable designed to keep construction sites safe.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
