@@ -38,7 +38,7 @@ More information about the project, and to see videodetails on the Toolbox Spott
 </div>
    
    
-<div class="row mt-3">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://player.vimeo.com/video/342512226" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
