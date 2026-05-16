@@ -12,7 +12,7 @@ related_publications: false
 
 
 
-More information about the project, and to see videodetails on the Toolbox Spotter and its architecture are available in this paper: [Toolbox Spotter at arxiv](https://www.terryberlier.com/tinkering-towards-utopia-2/)
+More information about the project, including more photos and video, are available at Terry Berlier's website, linked here: [Tinkering Towards Utopia](https://www.terryberlier.com/tinkering-towards-utopia-2/)
 
     
 <div class="row">
@@ -40,7 +40,7 @@ More information about the project, and to see videodetails on the Toolbox Spott
    
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://player.vimeo.com/video/342512226" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+        {% include video.liquid path="https://player.vimeo.com/video/342512226?h=3b0a6aeb74" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
