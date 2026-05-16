@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ShadowRound Prototype
+title: DEL
 description: "Works-like" prototype for a robotic heavy bag.
 img: assets/img/projects/ShaRou_Closeup.jpg
 importance: 3
