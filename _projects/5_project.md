@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Kenya Project
-description: a project with a background image
-img: assets/img/1.jpg
+title: ShadowRound
+description: "Works-like" prototype for a robotic heavy bag.
+img: assets/img/projects/ShaRou_Closeup.jpg
 importance: 3
 category: Engineering Projects
 related_publications: false
 ---
+
+*July 2019*
 
 *July 2019*
 
