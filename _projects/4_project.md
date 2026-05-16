@@ -3,7 +3,7 @@ layout: page
 title: ShadowRound Prototype
 description: "Works-like" prototype for a robotic heavy bag.
 img: assets/img/projects/ShaRou_Closeup.jpg
-importance: 4
+importance: 3
 category: Engineering Projects
 related_publications: false
 ---

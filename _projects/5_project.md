@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
 category: Engineering Projects
+related_publications: false
 ---
 
 *July 2019*
