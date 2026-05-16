@@ -3,7 +3,7 @@ layout: page
 title: Kinetic Art Installation
 description: Mechatronic system designed produced for artist Terry Berlier. 
 img: assets/img/projects/TerBer_PulleyBoxInternal.jpg
-importance: 2
+importance: 3
 category: Engineering Projects
 related_publications: false
 ---
