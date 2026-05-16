@@ -25,7 +25,7 @@ The project was exhibited at the Contemporary Art and Spirits gallery in Osaka, 
     </div>
 </div>
 <div class="caption">
-    The final AlertWear prototype. 
+    Internals of the "drop box". 
 </div>
 
 
@@ -48,7 +48,7 @@ The project was exhibited at the Contemporary Art and Spirits gallery in Osaka, 
     </div>
 </div>
 <div class="caption">
-    Video of the Pneumatic Steam Engine running using shop air (turn on the sound, it's very satisfying!).
+    Video of the art installation (for a full-screen version, please follow the video to Vimeo).
 </div>
 
 
